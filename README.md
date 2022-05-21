@@ -6,14 +6,11 @@ Inspiration
 	Fortunately, we have the opportunity to create an after-market add-on that can be installed in a variety of makes and models to upgrade your existing car functionality at almost n
 
 Vision 
-	This add-on accessory for your vehicle will enable you to modify any car to dynamically control the speed of the windshield wiper based on the resistance against the wipers. The device will be supported through the company website, which will offer kits for purchase, forums for crowdsourcing and sharing, libraries with curated documents, and learning workshops partnered with Austin Community College. The following are the needs for each specific category
+	This add-on accessory for your vehicle will enable you to modify any car to dynamically control the speed of the windshield wiper based on the resistance against the wipers. The device will be supported through the company website, which will offer kits for purchase, forums for crowdsourcing and sharing, libraries with curated documents, and learning workshops partnered with Austin Community College. The following are the specifications for each specific category of the product.
 	The hardware kit would include a motor, a sensor, a micro controller, and the assorted cabling needed to interface with the vehicle. Kits can be customized to the customers’ needs for their specific car, or could have a variety of options for multiple cars. 
-	
-
-Hardware - motor, sensor, micro controller, assorted cabling
-Software - simple python coding loaded on micro controller
-Website - database, PaaS, authentication, domain/IP, HTML, CSS, Java
-Website interface - Landing page, web forum, log in, library, learning courses
+	The micro controller would be pre-loaded with the open source code that would control the speed of the wipers. Anyone is able to edit this code for finer control or specific patterns. The code for  the micro controller is built using Python. 
+	The website is where the real magic happens. Swipe / Smart is based on community involvement and growth. The website will offer starter hardware kits that have all you need to get started at a reasonable cost. The customer is also able to register an account that can be used to access the other resources on the website. The web forum will provide an open community where customers can discuss code, hardware, car modifications, and more. A curated library will contain guides for the equipment, setup processes, car repair manuals, and more. Finally, membership will grant access to learning courses that can improve your knowledge of programming, car repair and interfacing, and hardware hacking. These courses would have a premium cost, but provide thorough learning opportunities backed by professional educators. 
+	We will use a hosting platform like SquareSpace to house our domain and to set up the simplicity of our web pages. Then, we will use a payment tracking system like PayPal to retrieve payments for starter kits and premium memberships. Our web development team will design modules for the learning courses with interactive activities. Logins and user data would need to be secured using an authentication API like 
 Current Product
 Raspberry-Pi using Python
 Stepper Motor
@@ -26,7 +23,10 @@ How different is each car?
 Accomplishments
 
 What we learned
-
+GitHub use
+Resistance and how to measure it
+CSS
+How to assemble a Raspberry Pi 
 
 What’s next for Swipe / Smart?
 Measure resistance against motor
